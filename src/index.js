@@ -2,6 +2,6 @@ import { registerRootComponent } from 'expo';
 import React from 'react';
 import App from './App';
 
-const entry = () => <App/>;
+const Entry = () => <App/>;
 
-registerRootComponent(entry);
+registerRootComponent(Entry);
