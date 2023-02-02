@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
 	},
 });
 
-const App = (context) =>
+const App = () =>
 	<View style={ styles.container }>
 		<Text>Get ready</Text>
 	</View>;
