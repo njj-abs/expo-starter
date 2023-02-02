@@ -9,7 +9,10 @@
     "web": "expo start --web",
     "lint": "npx eslint .",
     "test-dev": "jest",
-    "test-ci": "jest --coverage"
+    "test-ci": "jest --coverage",
+    "dev": "expo start --dev-client",
+    "tunnel": "expo start --tunnel",
+    "dev-tunnel": "expo start --dev-client --tunnel"
   },
   "jest": {
     "preset": "jest-expo",
