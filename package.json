@@ -8,8 +8,9 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "lint": "npx eslint .",
-    "test-dev": "jest",
-    "test-ci": "jest --coverage",
+    "test": "jest",
+    "test-dev": "jest --watchAll=false",
+    "test-ci": "npm run test-dev -- --coverage",
     "dev": "expo start --dev-client",
     "tunnel": "expo start --tunnel",
     "dev-tunnel": "expo start --dev-client --tunnel"
@@ -21,8 +22,7 @@
       "./src/**/*.js"
     ],
     "coveragePathIgnorePatterns": [
-      "./src/index.js",
-      "./src/reportWebVitals.js"
+      "./src/index.js"
     ],
     "coverageThreshold": {
       "global": {
